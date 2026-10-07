@@ -40,7 +40,7 @@ clean:
 	@echo clean ...
 	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).nds
 
-else
+
 
 DEPENDS	:= $(OFILES:.o=.d)
 
